@@ -21,6 +21,14 @@ export class LoginPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  login() {
+
+  }
+
+  register() {
+    this.navCtrl.push('RegisterPage');
+  }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
   }
